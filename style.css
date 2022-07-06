@@ -1,0 +1,137 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#background-image {
+    width: 100%;
+    margin: 0;
+}
+
+.text-box {
+    position: absolute;
+    height: 30%;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.donate-button {
+    text-decoration: none;
+    background-color: rgb(228, 26, 76);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.sections {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.sections h1 {
+    font-size: 50px;
+}
+
+.sections p {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+span {
+    font-size: 42px;
+    margin-inline: 25px;
+}
+
+#selected-amount {
+    color: rgb(228, 26, 76);
+    background-color: rgba(243, 92, 129, 0.616);
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(228, 26, 76);
+}
+
+.text-field {
+    width: 35%;
+    padding: 12px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid grey;
+}
+
+.donation-plan {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.donation-plan div {
+    margin-inline-end: 70px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#food-donation {
+    background-color: rgba(222, 248, 247, 0.897);
+
+}
+
+#shelter-donation {
+    background-color: rgba(247, 221, 225, 0.897);
+}
+
+#education-donation {
+    background-color: rgba(255, 254, 205, 0.897);
+}
+
+.buttonIn {
+
+    position: absolute;
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: rgb(233, 233, 157);
+    border-width: 10px;
+    background-color: rgb(233, 233, 157);
+
+}
+
+.subcribe-form-input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.subscribe-button {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #1e90ff;
+    transform: translateX(2px);
+}
